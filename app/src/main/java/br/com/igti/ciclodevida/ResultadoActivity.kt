@@ -13,7 +13,8 @@ class ResultadoActivity : AppCompatActivity() {
 
     private fun acaoBotaoVoltar() {
                 val button = findViewById<Button>(R.id.btnResultadoActivity)
-        button.setOnClickListener { finish()
+        button.setOnClickListener {
+            finish()
     }
     }
 }

@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        configListeners()
     }
     private fun configListeners(){
         configListenersBtnResultado()
@@ -19,8 +20,9 @@ class MainActivity : AppCompatActivity() {
     private fun configListenersBtnResultado() {
         val button =findViewById<Button>(R.id.btnMainAction)
         button.setOnClickListener {
-            val intent = Intent(this, ResultadoActivity)
+            val intent = Intent(this, ResultadoActivity::class.java)
             startActivity(intent)
         }
     }
+
 }
