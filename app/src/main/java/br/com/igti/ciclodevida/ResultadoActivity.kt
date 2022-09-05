@@ -9,10 +9,9 @@ class ResultadoActivity : AppCompatActivity() {
     private lateinit var button : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        button = findViewById<Button>(R.id.btnResultadoActivity)
         setContentView(R.layout.activity_resultado)
+        button = findViewById(R.id.btnResultadoActivity)
         configListeners()
-        acaoBotaoVoltar()
     }
 
     private fun configListeners() {
