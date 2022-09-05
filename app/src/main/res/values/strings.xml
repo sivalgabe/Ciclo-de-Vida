@@ -2,4 +2,5 @@
     <string name="app_name">Ciclo de Vida</string>
     <string name="btnNovaTela">Nova Tela</string>
     <string name="btnVoltar">Voltar</string>
+    <string name="btnNovo_botao">Novo Botao</string>
 </resources>
